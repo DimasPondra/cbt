@@ -1,66 +1,137 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# CBT (Computer Based Test)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+CBT adalah aplikasi web untuk ujian toefl secara online. Program ini saya buat sebagai tema materi pelatihan Laravel.
 
-## About Laravel
+Anda dapat mengakses aplikasi CBT di [URL Aplikasi](not-yet).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+-   [Login](not-yet): Gunakan tautan ini untuk masuk ke akun CBT anda.
+-   [Registrasi](not-yet): Gunakan tautan ini untuk membuat akun baru di CBT.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Daftar Isi
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+1. [Prasyarat](#prasyarat)
+2. [Teknologi yang Digunakan](#teknologi-yang-digunakan)
+3. [Fitur-fitur](#fitur---fitur)
+4. [Pemasangan](#pemasangan)
 
-## Learning Laravel
+## Prasyarat
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+-   [GIT](https://www.git-scm.com/downloads)
+-   [PHP 8.2](https://www.php.net/downloads.php)
+-   [Composer 2.x](https://getcomposer.org/download/)
+-   [MySQL 8.0](https://dev.mysql.com/downloads/installer/)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Teknologi yang Digunakan
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+-   Laravel 11
+<!-- - Bootstrap 5.2
+-   Spatie -->
 
-## Laravel Sponsors
+## Fitur - fitur
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Ongoing
 
-### Premium Partners
+<!-- 1. **Autentikasi Pengguna:**
+    - Registrasi dan login pengguna.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+2. **Manajemen Role dan Permission:**
+    - Membuat dan menghapus permission dan role.
+    - Memberikan permissions ke role.
+    - Hanya role Developer yang dapat mengaksesnya.
 
-## Contributing
+3. **Manajemen User:**
+    - Menampilkan data users.
+    - Memberikan roles ke user.
+    - Hanya role Admin dan Developer yang dapat mengaksesnya.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+4. **Manajemen Priority Type:**
+    - Menampilkan, membuat, dan menghapus data.
+    - Hanya role Admin yang dapat mengaksesnya.
 
-## Code of Conduct
+5. **Manajemen Wishlist Type:**
+    - Menampilkan, membuat, dan menghapus data.
+    - Hanya role Admin yang dapat mengaksesnya.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+6. **Manajemen Funding Source:**
+    - Menampilkan, membuat, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya.
 
-## Security Vulnerabilities
+7. **Manajemen Financial Transaction:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya.
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+8. **Manajemen Service Histore:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role(Member) yang dapat mengaksesnya.
 
-## License
+9. **Manajemen Recommended Service Schedule:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+10. **Manajemen Wishlist:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya.
+
+11. **Manajemen Task:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya.
+
+12. **Manajemen Daily Activity Log:**
+    - Menampilkan, membuat, merubah, dan menghapus data berdasarkan pemilik data.
+    - Hanya role Member yang dapat mengaksesnya. -->
+
+## Pemasangan
+
+Langkah-langkah untuk menginstall proyek ini.
+
+Clone proyek
+
+```bash
+git clone https://github.com/DimasPondra/cbt.git
+```
+
+Masuk ke dalam folder proyek
+
+```bash
+cd cbt
+```
+
+Install depedencies
+
+```bash
+composer install
+```
+
+Buat konfigurasi file
+
+```bash
+cp .env-example .env
+```
+
+Rubah `.env` untuk konfigurasi sesuai variabel
+
+-   `DB_CONNECTION` - Database server yang digunakan.
+-   `DB_HOST` - Hostname atau alamat IP server MySQL.
+-   `DB_DATABASE` - Database yang dibuat untuk aplikasi, default adalah laravel.
+-   `DB_USERNAME` - Username untuk mengakses database.
+-   `DB_PASSWORD` - Password untuk mengakses database.
+
+Migrasi database dan setup (seed) tabel awal
+
+```bash
+php artisan migrate --seed
+```
+
+Generate manual key
+
+```bash
+php artisan key:generate
+```
+
+Mulai server
+
+```bash
+php artisan serve
+```
+
+Dengan mengikuti langkah-langkah di atas, Anda akan dapat menjalankan aplikasi CBT dan mulai mengelola berbagai macam test dan mencobanya.

@@ -23,6 +23,7 @@ return new class extends Migration
             $table->longText('description')->nullable();
 
             $table->foreignId('file_id')
+                ->nullable()
                 ->constrained()
                 ->onUpdate('restrict')
                 ->onDelete('restrict');

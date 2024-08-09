@@ -17,7 +17,7 @@ class ScheduleSeeder extends Seeder
             'created_by' => 2,
             'test_id' => 1,
             'schedule_time' => '2024-08-10 09:00:00',
-            'user_ids' => [3]
+            'user_ids' => json_encode([3])
         ]);
     }
 }
